@@ -1,0 +1,18 @@
+mysql -uroot -p 
+
+mysql> create database student;
+Query OK, 1 row affected (0.00 sec)
+
+create table student_details (
+studentId integer(4) primary key,
+firstName varchar(25),
+lastName varchar(25),
+rollNo integer(2),
+className varchar(25),
+sectionName char
+);
+mysql> insert into student_details values(10,'habi','s ravi',10,'XII','B');
+Query OK, 1 row affected (0.00 sec)
+
+
+create table courses ( courseID INTEGER(4), courseName VARCHAR(25) );
