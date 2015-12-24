@@ -2,8 +2,8 @@ public class StringClassDemo {
 
 	public static void main(String[] args) {
 		// Using String class
-		String firstName = new String("Habi");
-		String lastName = "S Ravi";
+		String firstName = new String("Pranave");
+		String lastName = "K v";
 		System.out.println(firstName + " " + lastName);
 
 		String s1 = "Hello";
