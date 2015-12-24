@@ -4,14 +4,14 @@ public class StringBufferClassDemo {
 
 		// String class creates string of fixed length
 		// StringBuffer class creates string of variable length
-		StringBuffer str = new StringBuffer("Habi");
+		StringBuffer str = new StringBuffer("Pranave");
 		System.out.println(str);
 		System.out.println(str.length());
 
 		for (int i = 0; i < str.length(); i++)
 			System.out.println(str.charAt(i));
 
-		str.append("Ravi");
+		str.append("K V");
 		System.out.println(str);
 		str.insert(4, " S ");
 		System.out.println(str);
