@@ -11,7 +11,7 @@ rollNo integer(2),
 className varchar(25),
 sectionName char
 );
-mysql> insert into student_details values(10,'habi','s ravi',10,'XII','B');
+mysql> insert into student_details values(16,'Pranave','K V',10,'XII','B');
 Query OK, 1 row affected (0.00 sec)
 
 
