@@ -1,4 +1,4 @@
-package com.habi;
+package com.pranave;
 
 class Person {
 	private String name;
@@ -72,10 +72,10 @@ class Manager extends Employee {
 public class LearnMultilevelInheritance {
 
 	public static void main(String[] args) {
-		Manager m = new Manager("HABI", 22, 'M', 1000);
+		Manager m = new Manager("PRANAVE", 22, 'M', 1000);
 		m.displayDetails();
 		System.out.println();
-		Manager r = new Manager("RAVI", 60, 'M', 5000);
+		Manager r = new Manager("VISHNU", 23, 'M', 5000);
 		r.displayDetails();
 		
 	}
