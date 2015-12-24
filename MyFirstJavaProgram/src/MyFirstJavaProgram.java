@@ -8,7 +8,7 @@ public class MyFirstJavaProgram {
 	//We can use either String []args or String args[] in void main()
 		
 		System.out.println("Hello World!");
-		System.out.println("I am learning Java!");
+		System.out.println("Java is simple !!");
 		// If i run the program without any argument, i will get an exception
 		// So i added an if statement to check the length of arguments  
 		if(args.length >0)
