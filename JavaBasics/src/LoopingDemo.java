@@ -20,7 +20,7 @@ public class LoopingDemo {
 		} while (j < 6);
 
 		// Enhanced for loop
-		String names[] = { "HABI", "S", "RAVI" };
+		String names[] = { "PRANAVE", "K", "V" };
 		for (String n : names)
 			System.out.print(n + " ");
 	}
